@@ -20,4 +20,28 @@ the two binary files are: molden and gmolden
 
 start your X server
 
+ssh -X ...
+
+ssh -Y ...    if you trust LISA :)
+
+
+./molden ../molecule.zmat
+
+-------------::::step 2:::::-----------
+
+qsub lisa.job
+
+you will get the two files: lisa.job.numbers
+
+
+
+
+
+watch -n 3 qstats -u myname
+
+helpdesk@surfsara.nl
+
+ask my questions about packages and modeulles
+software: 
+https://userinfo.surfsara.nl/systems/lisa/software
 
